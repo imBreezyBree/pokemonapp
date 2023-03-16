@@ -1,6 +1,8 @@
 <template>
   <RouterLink :to="`/pokemons/${pokemon.name}`">
-    <div class="flex items-center space-x-6 w-full p-2 border border-gray-200 cursor-pointer rounded-md">
+    <div
+      class="flex items-center space-x-6 w-full p-2 border border-gray-200 cursor-pointer rounded-md"
+    >
       <div
         :class="types.indexOf(pokemon.type1) == -1 ? 'default' : pokemon.type1"
         class="w-3 h-3 rounded-full"

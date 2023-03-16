@@ -50,4 +50,4 @@ npm run build
 ## References
 
 [Tailwind CSS](https://tailwindcss.com/docs/installation)
-[Vue JS](https://vuejs.org)
+[Vue JS](https://vuejs.org)"# pokemonapp" 
